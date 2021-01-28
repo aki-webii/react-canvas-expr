@@ -6,7 +6,6 @@ import { v4 as uuidv4 } from "uuid";
 import { DrawObject } from "../types";
 import Rectangle from "../components/Rectangle";
 import Image from "../components/Image";
-import TShirtSvg from '../resources/images/t-shirt.svg';
 import styles from '../styles/ShirtComposition.module.css'
 
 export default function Home() {
@@ -56,7 +55,6 @@ export default function Home() {
       </Head>
 
       <main className="relative p-4">
-        <img className={`absolute width ${styles.backgroundImage}`} src={TShirtSvg} />
         <Stage
           width={300}
           height={400}
